@@ -27,7 +27,7 @@ const AuthForm = () => {
         <VStack spacing={4}>
           {/* Instagram logo */}
           <Image
-            src="/logo.png"
+            src="/CurtisGram.png"
             h={24}
             cursor={"pointer"}
             alt="instagram logo"

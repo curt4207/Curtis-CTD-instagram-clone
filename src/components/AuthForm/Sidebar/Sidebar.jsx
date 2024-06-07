@@ -1,4 +1,4 @@
-import { Avatar, Box, Flex, Link, Tooltip } from "@chakra-ui/react";
+import { Avatar, Box, Flex, Image, Link, Tooltip } from "@chakra-ui/react";
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { CreatePostLogo, InstagramLogo, InstagramMobileLogo, NotificationsLogo, SearchLogo } from "../../../assets/contants";
@@ -49,7 +49,13 @@ const Sidebar = () => {
           pl={2}
           display={{ base: "none", md: "block" }}
         >
-          <InstagramLogo />
+         <Image
+            src="/CurtisGram.png"
+            h={24}
+            cursor={"pointer"}
+            alt=" logo"
+          />
+
         </Link>
         <Link
           to={"/"}
