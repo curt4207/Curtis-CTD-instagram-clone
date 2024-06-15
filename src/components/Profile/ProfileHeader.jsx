@@ -10,14 +10,14 @@ const ProfileHeader = () => {
         alignSelf={"flex-start"}
         mx={"auto"}
         >
-        <Avatar name='As a Programer' src='/profilepic.png' alt="As a Programer logo"></Avatar>
+        <Avatar name='As a Programer' src='/IMG_E1775.JPG' alt="As a Programer logo"></Avatar>
         </AvatarGroup>
            <VStack alignItems={"start"} gap={2} mx={"auto"} flex={1}>
             <Flex gap={4} direction={{base: "column", sm:"row"}} justifyContent={{base: "center", sm: "flex-start"}}
             alignItems={"center"}
             w={"full"}>
                 <Text fontSize={{base: "sm", md: "lg"}}>
-                    asaprogramer_
+                    Holden_Tudiks81
                 </Text>
                 <Flex gap={4} alignItems={"center"} justifyContent={"center"}>
                     <Button bg={"white"} color={"black"} _hover={{bg: "whiteAlpha.800"}} size={{base: "xs", md: "sm"}} >Edit Profile</Button>
@@ -25,12 +25,12 @@ const ProfileHeader = () => {
             </Flex>
 
             <Flex alignItems={"center"} gap={{base: 2, sm: 4}}>
-                <Text>
-                <Text as="span" fontWeight={"bold"} mr={1}>4</Text>
+                <Text fontSize={{base: "xs", md: "sm"}}>
+                <Text as="span" fontWeight={"bold"} mr={1}>454</Text>
                     Posts
                 </Text>
                 <Text>
-                <Text as="span" fontWeight={"bold"} mr={1}>149</Text>
+                <Text as="span" fontWeight={"bold"} mr={1}>1149</Text>
                     Followers
                 </Text>
                 <Text>
